@@ -1,0 +1,56 @@
+body{
+	background: #4000FF;
+	margin: 0;
+	padding: 0;
+	/*ამითი შემიძლია ფონტის გამოძახება font-family: ფონტის სახელი;*/
+}
+header{
+	background: black;
+	color: #FF4000;
+	padding: 10px 30px;
+	margin: 0px 0px 50px 0px;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	/*ul-ში li-ების წერტილების გაქრობა list-style-type:none*/
+
+}
+
+li{
+	display: inline-block;
+	margin-right: 80px;
+}
+
+section{
+	background: #8258FA;
+	color: #FF4000;
+	border-style: solid;
+	border-color: black;
+	padding: 50px 30px;
+	margin: 20px 10px;
+	display: flex;
+	flex-direction: row;
+	/* გამჭირვალე რო გავხადოთ ტექსტი opacity: 0.5;*/
+}
+
+div{
+	background: black;
+	width: 100px;
+	margin: auto;
+}
+
+button{
+	background: black;
+	color: #FF4000;
+	margin: 20px 40%;
+	width: 200px;
+	/* ღილაკის ჩარჩოს მოშორება border: none;*/
+}
+footer{
+	background: black;
+	color: #FF4000;	
+	padding: 10px 30px 200px;
+	margin: 50px 0px 0px 0px
+}
