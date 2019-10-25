@@ -1,0 +1,60 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("images/index.jpg");
+    background-repeat: no-repeat;
+    background-size: 1400px 1700px;
+	 /*konkretuli font-is gamosadzaxeblad font-family: font-name;*/
+}
+header{
+	background: rgba(21,30,43,0.8);
+	color: #FF4000;
+	padding: 10px 30px;
+	margin: 0px 0px 50px 0px;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	/*ul-shi li-ebis standartuli machvenebeli 
+	wertilebis wasashlelad list-style-type:none*/
+
+}
+/*sheni menu-s gilakebi dizaini*/
+li{
+display: inline-block;
+margin-right: 80px;
+/*linkebis textis zoma*/
+font-size: 1.5em;
+}
+
+section{
+	background: #937F7F;
+	color: #FF4000;
+	border-style: solid;
+	border-color: black;
+	padding: 30px 30px;
+	margin: 20px 10px;
+	display: flex;
+	flex-direction: row;
+	/* teqstis gamchirvalobistvis opacity: 0.5;*/
+}
+
+/*ratomgac ar mushaobs sheamowme ratom*/
+section .img1 div{
+	background-image: url("images/building1.png");
+}
+
+section div{
+	background: black;
+	width: 100px;
+	margin: auto;
+}
+
+footer{
+	/* rgba(1,1,1,0.8) es imistvis ro background semi-transparent gaxdes */
+	background: rgba(21,30,43,0.8);
+	color: #FF4000;	
+	padding: 10px 30px 40px 30px;
+    margin-top: 100%;
+}
