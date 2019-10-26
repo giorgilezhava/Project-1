@@ -1,0 +1,56 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("images/index.jpg");
+    background-repeat: no-repeat;
+    background-size: 1400px 2350px;
+}
+
+header{
+	background: rgba(21,30,43,0.8);
+	color: #FF4000;
+	padding: 10px 30px;
+	margin: 0px 0px 50px 0px;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	/*ul-shi li-ebis standartuli machvenebeli 
+	wertilebis wasashlelad list-style-type:none*/
+
+}
+/*sheni menu-s gilakebi dizaini*/
+li{
+display: inline-block;
+margin-right: 80px;
+/*linkebis textis zoma*/
+font-size: 1.5em;
+}
+
+form {
+	width: 30%;
+	margin:22px auto;
+	padding: 70px;
+	border: 1px solid #B0C4DE;
+	background: rgba(21,30,43,0.8);
+
+}
+
+.input-group input {
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+	background: rgba(255,255,255,0.3);
+}
+
+footer{
+	/* rgba(1,1,1,0.8) es imistvis ro background semi-transparent gaxdes */
+	background: rgba(21,30,43,0.8);
+	color: #FF4000;	
+	padding: 10px 30px 40px 30px;
+    margin-top: 100%;
+}

@@ -3,7 +3,7 @@ body{
 	padding: 0;
 	background-image: url("images/index.jpg");
     background-repeat: no-repeat;
-    background-size: 1400px 1700px;
+    background-size: 1400px 2350px;
 	 /*konkretuli font-is gamosadzaxeblad font-family: font-name;*/
 }
 header{
@@ -29,20 +29,55 @@ font-size: 1.5em;
 }
 
 section{
-	background: #937F7F;
+	background: rgba(21,30,43,0.8);
 	color: #FF4000;
 	border-style: solid;
 	border-color: black;
-	padding: 30px 30px;
+	padding: 60px 30px;
 	margin: 20px 10px;
-	display: flex;
-	flex-direction: row;
-	/* teqstis gamchirvalobistvis opacity: 0.5;*/
+	display: grid;
+	grid-template-columns:auto auto auto; 
+	grid-gap: 20px;
+	/*align-content: space-around;
+	justify-content: space-between;
+	teqstis gamchirvalobistvis opacity: 0.5;*/
 }
 
 /*ratomgac ar mushaobs sheamowme ratom*/
-section .img1 div{
+section .img1{
 	background-image: url("images/building1.png");
+	background-size: cover;
+	background-position: center;
+	width:400px ;
+	height:300px;
+	/*mere gaaswore screen readeristvis text-: -99999999px;*/
+}
+
+section .img2{
+	background-image: url("images/building2.png");
+	background-size: cover;
+	background-position: center;
+	width:400px ;
+	height:300px;
+	/*mere gaaswore screen readeristvis text-: -99999999px;*/
+}
+
+section .img3{
+	background-image: url("images/building3.png");
+	background-size: cover;
+	background-position: center;
+	width:400px ;
+	height:300px;
+	/*mere gaaswore screen readeristvis text-: -99999999px;*/
+}
+
+section .img4{
+	background-image: url("images/building4.png");
+	background-size: cover;
+	background-position: center;
+	width:400px ;
+	height:300px;
+	/*mere gaaswore screen readeristvis text-: -99999999px;*/
 }
 
 section div{
