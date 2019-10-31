@@ -1,14 +1,14 @@
 /* unvisited link */
-a:link {color: red;}
+a:link {color: #FF4000;}
 
 /* visited link */
 a:visited {color: #FF4000;}
 
 /* mouse over link */
-a:hover {color: #F5FD05;}
+a:hover {color: #ff8c1a;}
 
 /* selected link */
-a:active {color: blue}
+a:active {color: #ffbf80}
 
 /* unvisited link */
 a:link {text-decoration: none;}
