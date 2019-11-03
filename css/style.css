@@ -1,38 +1,40 @@
 body{
 	margin: 0;
 	padding: 0;
-	background-image: url("images/index.jpg");
+	font-family: "montserrat",sans-serif;
+	background-color: #fcbb49;
     background-repeat: no-repeat;
     background-size: 1400px 2350px;
+    text-transform: uppercase;
 	 /*konkretuli font-is gamosadzaxeblad font-family: font-name;*/
 }
+
 header{
-	background: rgba(21,30,43,0.8);
+	background: rgba(0,0,0,0.9);
 	color: #FF4000;
 	padding: 10px 30px;
 	margin: 0px 0px 50px 0px;
 }
+
 
 ul{
 	margin: 0;
 	padding: 0;
 	/*ul-shi li-ebis standartuli machvenebeli 
 	wertilebis wasashlelad list-style-type:none*/
-
 }
+
 /*sheni menu-s gilakebi dizaini*/
 li{
 display: inline-block;
 margin-right: 80px;
 /*linkebis textis zoma*/
-font-size: 1.5em;
+font-size: 1.15em;
 }
 
 section{
-	background: rgba(21,30,43,0.8);
+	background: rgba(0,0,0,0.9);
 	color: #FF4000;
-	border-style: solid;
-	border-color: black;
 	padding: 60px 30px;
 	margin: 20px 10px;
 	display: grid;
@@ -43,52 +45,23 @@ section{
 	teqstis gamchirvalobistvis opacity: 0.5;*/
 }
 
-section .img1{
-	background-image: url("images/building1.png");
-	background-size: cover;
-	background-position: center;
-	width:400px ;
-	height:300px;
-	/*mere gaaswore screen readeristvis text-: -99999999px;*/
-}
-
-section .img2{
-	background-image: url("images/building2.png");
-	background-size: cover;
-	background-position: center;
-	width:400px ;
-	height:300px;
-	/*mere gaaswore screen readeristvis text-: -99999999px;*/
-}
-
-section .img3{
-	background-image: url("images/building3.png");
-	background-size: cover;
-	background-position: center;
-	width:400px ;
-	height:300px;
-	/*mere gaaswore screen readeristvis text-: -99999999px;*/
-}
-
-section .img4{
-	background-image: url("images/building4.png");
-	background-size: cover;
-	background-position: center;
-	width:400px ;
-	height:300px;
-	/*mere gaaswore screen readeristvis text-: -99999999px;*/
-}
-
 section div{
-	background: black;
-	width: 100px;
 	margin: auto;
+}
+
+img{
+	background-size: cover;
+	background-position: center;
+	width:400px ;
+	height:300px;
+	/*mere gaaswore screen readeristvis text-: -99999999px;*/
 }
 
 footer{
 	/* rgba(1,1,1,0.8) es imistvis ro background semi-transparent gaxdes */
-	background: rgba(21,30,43,0.8);
+	background: rgba(0,0,0,0.9);
 	color: #FF4000;	
 	padding: 10px 30px 40px 30px;
     margin-top: 100%;
+    text-transform: none;
 }

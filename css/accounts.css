@@ -1,13 +1,15 @@
 body{
 	margin: 0;
 	padding: 0;
-	background-image: url("images/index.jpg");
+	font-family: "montserrat",sans-serif;
+	background-color: #fcbb49;
     background-repeat: no-repeat;
     background-size: 1400px 2350px;
+    text-transform: uppercase;
 }
 
 header{
-	background: rgba(21,30,43,0.8);
+	background: rgba(0,0,0,0.9);
 	color: #FF4000;
 	padding: 10px 30px;
 	margin: 0px 0px 50px 0px;
@@ -25,17 +27,19 @@ li{
 display: inline-block;
 margin-right: 80px;
 /*linkebis textis zoma*/
-font-size: 1.5em;
+font-size: 1.15em;
 }
 
 form {
 	width: 35%;
 	margin:22px auto;
 	padding: 70px;
-	background: rgba(21,30,43,0.8);
+	background: rgba(0,0,0,0.9);
 	color:white;
+	text-transform: none;
 	outline: none;
 	border: none;
+	border-radius: 20px;
 }
 
 .input-group input {
@@ -44,34 +48,39 @@ form {
 	padding: 5px 10px;
 	font-size: 16px;
 	border-radius: 20px;
-	border: 1px solid gray;
+	border: 1px solid grey;
 	background: rgba(0,0,0,0.6);
 	outline: none;
 }
 
+.input-group input:focus{
+	border: 1px solid #FF4000;
+}
+
 button{
 	padding:9px 25px;
-	background-color: rgba(255,51,10,1);
-	border: none;
+	background-color: black;
 	border-radius: 50px;
 	outline: none;
-	border: none;
+	border: 2px solid #FF4000;
+	color: white;
 }
 
 button:hover{
-	background-color: rgba(255,51,10,0.8);
+	background-color: rgba(255,51,10,1);
 }
 
 footer{
 	/* rgba(1,1,1,0.8) es imistvis ro background semi-transparent gaxdes */
-	background: rgba(21,30,43,0.8);
+	background: rgba(0,0,0,0.9);
 	color: #FF4000;	
 	padding: 10px 30px 40px 30px;
     margin-top: 30%;
+    text-transform: none;
 }
 
 textarea:focus, input:focus {
-    color: white;
+    color: #FF4000;
 }
 
 input, select, textarea{
