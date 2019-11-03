@@ -13,9 +13,10 @@ header{
 	background: rgba(0,0,0,0.9);
 	color: #FF4000;
 	padding: 10px 30px;
-	margin: 0px 0px 50px 0px;
+	width:100%;
+	height: 100px;
+	display: block;
 }
-
 
 ul{
 	margin: 0;
@@ -30,6 +31,28 @@ display: inline-block;
 margin-right: 80px;
 /*linkebis textis zoma*/
 font-size: 1.15em;
+}
+
+button{
+	padding:9px 25px;
+	background-color: black;
+	position: absolute;
+	top: 0;
+	right: 0; 
+	border-radius: 50px;
+	outline: none;
+	border: 2px solid #FF4000;
+	color: white;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+button:hover{
+	background-color: rgba(255,51,10,1);
+}
+
+.reg{
+	margin-right: 5px;
 }
 
 section{
