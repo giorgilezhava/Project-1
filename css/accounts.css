@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	font-family: "montserrat",sans-serif;
+	font-family: 'Merriweather', serif;
 	background-color: #fcbb49;
     background-repeat: no-repeat;
     background-size: 1400px 2350px;
@@ -10,9 +10,16 @@ body{
 
 header{
 	background: rgba(0,0,0,0.9);
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 10px 5%;
+}
+
+h1{
 	color: #FF4000;
-	padding: 10px 30px;
-	margin: 0px 0px 50px 0px;
+	font-weight: 1000;
+	margin-right: auto;
 }
 
 ul{
@@ -60,6 +67,16 @@ form {
 button{
 	padding:9px 25px;
 	background-color: black;
+	border-radius: 50px;
+	outline: none;
+	border: 2px solid #FF4000;
+	color: white;
+}
+
+a button{
+	padding:9px 25px;
+	background-color: black;
+	margin-left: 10px;
 	border-radius: 50px;
 	outline: none;
 	border: 2px solid #FF4000;

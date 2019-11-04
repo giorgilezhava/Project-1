@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	font-family: "montserrat",sans-serif;
+	font-family: 'Merriweather', serif;
 	background-color: #fcbb49;
     background-repeat: no-repeat;
     background-size: 1400px 2350px;
@@ -11,16 +11,22 @@ body{
 
 header{
 	background: rgba(0,0,0,0.9);
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 10px 5%;
+}
+
+h1{
 	color: #FF4000;
-	padding: 10px 30px;
-	width:100%;
-	height: 100px;
-	display: block;
+	font-weight: 1000;
+	margin-right: auto;
 }
 
 ul{
 	margin: 0;
 	padding: 0;
+	transition: all 0.5s ease;
 	/*ul-shi li-ebis standartuli machvenebeli 
 	wertilebis wasashlelad list-style-type:none*/
 }
@@ -36,15 +42,11 @@ font-size: 1.15em;
 button{
 	padding:9px 25px;
 	background-color: black;
-	position: absolute;
-	top: 0;
-	right: 0; 
+	margin-left: 10px;
 	border-radius: 50px;
 	outline: none;
 	border: 2px solid #FF4000;
 	color: white;
-	margin-top: 10px;
-	margin-right: 10px;
 }
 
 button:hover{
@@ -58,11 +60,11 @@ button:hover{
 section{
 	background: rgba(0,0,0,0.9);
 	color: #FF4000;
-	padding: 60px 30px;
+	padding: 10px 10px;
 	margin: 20px 10px;
 	display: grid;
 	grid-template-columns:auto auto auto; 
-	grid-gap: 20px;
+	grid-gap: 10px;
 	/*align-content: space-around;
 	justify-content: space-between;
 	teqstis gamchirvalobistvis opacity: 0.5;*/
@@ -75,8 +77,7 @@ section div{
 img{
 	background-size: cover;
 	background-position: center;
-	width:400px ;
-	height:300px;
+	width:100%;
 	/*mere gaaswore screen readeristvis text-: -99999999px;*/
 }
 
