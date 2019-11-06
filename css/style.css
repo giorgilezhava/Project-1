@@ -15,7 +15,7 @@ header{
 	justify-content: flex-end;
 	align-items: center;
 	padding: 10px 5%;
-	color: #fff;
+	color: #FF4000;
 }
 
 h1{
@@ -38,6 +38,10 @@ display: inline-block;
 margin-right: 80px;
 /*linkebis textis zoma*/
 font-size: 1.15em;
+}
+
+a{
+	display: block;
 }
 
 .show-menu-btn, .hide-menu-btn{
@@ -70,13 +74,13 @@ font-size: 1.15em;
 
 	.menu{
 		position: fixed;
-		width: 100%;
+		width: 50%;
 		height: 100vh;
-		background: rgba(0,0,0,1);
-		right: 100%;
-		left: 0;
+		background: rgba(0,0,0,0.95);
+		right: 0;
+		left: 50%;
 		top: 0;
-		text-align: center;
+		text-align: left;
 		padding: 80px 0;
 		line-height: normal;
 		transition: 0.7s;
@@ -85,8 +89,12 @@ font-size: 1.15em;
 	.menu li{
 		display: block;
 		padding: 20px;
-		margin-left: 70px;
 	}
+
+ 	.menu li:hover{
+ 		background: #701c00;
+ 		width: 100%;
+ 	}
 
   .hide-menu-btn{
     position: absolute;
@@ -98,8 +106,8 @@ font-size: 1.15em;
 		display: none;
 	}
 
-	#chk:checked~.menu{
-		right: 0;
+	#chk:not(:checked)~.menu{
+		display: none;
 	}
 }
 
