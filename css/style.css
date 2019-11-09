@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	font-family: 'Merriweather', serif;
+	font-family: 'Roboto', sans-serif;
 	background-color: #fcbb49;
     background-repeat: no-repeat;
     background-size: 1400px 2350px;
@@ -43,6 +43,7 @@ font-size: 1.15em;
 a{
 	display: block;
 }
+
 
 .show-menu-btn, .hide-menu-btn{
 	transition: 0.4s;
@@ -140,9 +141,6 @@ section{
 	teqstis gamchirvalobistvis opacity: 0.5;*/
 }
 
-section div{
-	margin: auto;
-}
 
 img{
 	background-size: cover;
