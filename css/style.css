@@ -2,9 +2,9 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: 'Roboto', sans-serif;
-	background-color: #fcbb49;
+	background-image: url(/index.png);
     background-repeat: no-repeat;
-    background-size: 1400px 2350px;
+    background-size: cover;
     text-transform: uppercase;
 	 /*konkretuli font-is gamosadzaxeblad font-family: font-name;*/
 }
@@ -15,11 +15,12 @@ header{
 	justify-content: flex-end;
 	align-items: center;
 	padding: 10px 5%;
-	color: #FF4000;
+	color: #358af2;
+	height: 88px;
 }
 
 h1{
-	color: #FF4000;
+	color: #358af2;
 	font-weight: 1000;
 	margin-right: auto;
 }
@@ -120,17 +121,40 @@ button{
 	margin-left: 10px;
 	border-radius: 50px;
 	outline: none;
-	border: 2px solid #FF4000;
+	border: 2px solid #358af2;
 	color: white;
 }
 
 button:hover{
-	background-color: rgba(255,51,10,1);
+	background-color: #358af2;
 }
+
+#middle_logo{
+	text-align: center;
+	font-size: 64px;
+	color: rgba(0,0,0,0.9);
+}
+
+@media screen and (max-width:800px){
+	#middle_logo{
+	text-align: center;
+	font-size: 60px;
+	color: black;
+}
+}
+
+@media screen and (max-width:600px){
+	#middle_logo{
+	text-align: center;
+	font-size: 55px;
+	color: black;
+}
+}
+
 
 section{
 	background: rgba(0,0,0,0.8);
-	color: #FF4000;
+	color: #358af2;
 	padding: 10px 10px;
 	margin: 20px 10px;
 	display: grid;
@@ -140,7 +164,17 @@ section{
 	justify-content: space-between;
 	teqstis gamchirvalobistvis opacity: 0.5;*/
 }
+p{
+	text-align: center;
+	font-size: 20px;
+}
 
+.text1{
+	background-color: #7db0f0;
+  	box-shadow: 5px 10px black;
+  	width: 1000px;
+  	margin: 0 auto;
+}
 
 img{
 	background-size: cover;
@@ -152,7 +186,7 @@ img{
 footer{
 	/* rgba(1,1,1,0.8) es imistvis ro background semi-transparent gaxdes */
 	background: rgba(0,0,0,1);
-	color: #FF4000;	
+	color: #358af2;	
 	padding: 10px 30px 40px 30px;
     margin-top: 100%;
     text-transform: none;

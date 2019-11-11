@@ -2,7 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: 'Roboto', sans-serif;
-	background-color: #fcbb49;
+	background-image: url(/index.png);
     background-repeat: no-repeat;
     background-size: 1400px 2350px;
     text-transform: uppercase;
@@ -17,7 +17,7 @@ header{
 }
 
 h1{
-	color: #FF4000;
+	color: #358af2;
 	font-weight: 1000;
 	margin-right: auto;
 }
@@ -63,7 +63,7 @@ form {
 }
 
 .input-group input:focus{
-	border: 1px solid #FF4000;
+	border: 1px solid #358af2;
 }
 
 button{
@@ -71,7 +71,7 @@ button{
 	background-color: black;
 	border-radius: 50px;
 	outline: none;
-	border: 2px solid #FF4000;
+	border: 2px solid #358af2;
 	color: white;
 }
 
@@ -81,25 +81,25 @@ a button{
 	margin-left: 10px;
 	border-radius: 50px;
 	outline: none;
-	border: 2px solid #FF4000;
+	border: 2px solid #358af2;
 	color: white;
 }
 
 button:hover{
-	background-color: rgba(255,51,10,1);
+	background-color: #358af2;
 }
 
 footer{
 	/* rgba(1,1,1,0.8) es imistvis ro background semi-transparent gaxdes */
 	background: rgba(0,0,0,1);
-	color: #FF4000;	
+	color: #358af2;	
 	padding: 10px 30px 40px 30px;
     margin-top: 30%;
     text-transform: none;
 }
 
 textarea:focus, input:focus {
-    color: #FF4000;
+    color: #358af2;
 }
 
 input, select, textarea{
