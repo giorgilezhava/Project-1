@@ -7,6 +7,27 @@
 <!--utf-8 enebtan normalurad samushaod-->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+		<script>
+			$(document).ready(function(){
+				$("#done").click(function(){
+					var username = $("#username").val();
+					var email = $("#email").val();
+					var password = $("#password").val();
+					var confirm = $("#confirm").val();
+					var fail = "";
+					if (username.length <6) fail = "username needs to be more than 6 letters";
+					else if (email.split ('@').length - 1 ==0 || email.split ('.').length - 1 ==0)
+						fail = "email must contain @ and . symbols";
+					else if (password.length <8) fail = "password must be more than 8 symbols";
+					if (fail !="")
+						$('#messageShow').html(fail + "<div class=='clear'><br></div>");
+						$('#messageShow').show();
+						return false;
+				})
+			})
+		</script>
 </head>
 <body>
 	<header>
@@ -21,22 +42,22 @@
 		</nav>
 	</header>
 	<form>
-
-		<div class="input-group">
-			<label>Username</label>
-			<input type="text" name="username" >
+		<div class="input-group">			
+			<br>
+			<input type="text" placeholder="username" id="username" name="username" >
+		</div>
+			<div id="messageShow"></div>
+		<div class="input-group">			
+			<br>
+			<input type="email" placeholder="email" id="email" name="email" >
 		</div>
 		<div class="input-group">
-			<label>Email</label>
-			<input type="email" name="email" >
+			<br>
+			<input type="password" placeholder="password" id="password" name="password_1">
 		</div>
-		<div class="input-group">
-			<label>Password</label>
-			<input type="password" name="password_1">
-		</div>
-		<div class="input-group">
-			<label>Confirm password</label>
-			<input type="password" name="password_2">
+		<div class="input-group">			
+			<br>
+			<input type="password" placeholder="confirm password" id="confirm" name="password_2">
 		</div>
 		<br>
 		<div class="button">

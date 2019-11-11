@@ -9,7 +9,7 @@ body{
 }
 
 header{
-	background: rgba(0,0,0,0.9);
+	background: rgba(0,0,0,1);
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
@@ -91,7 +91,7 @@ button:hover{
 
 footer{
 	/* rgba(1,1,1,0.8) es imistvis ro background semi-transparent gaxdes */
-	background: rgba(0,0,0,0.9);
+	background: rgba(0,0,0,1);
 	color: #FF4000;	
 	padding: 10px 30px 40px 30px;
     margin-top: 30%;
