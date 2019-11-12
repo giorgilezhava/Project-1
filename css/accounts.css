@@ -2,7 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: 'Roboto', sans-serif;
-	background-image: url(/index.png);
+	background-image: linear-gradient(to right , #358af2, #2978d9);
     background-repeat: no-repeat;
     background-size: 1400px 2350px;
     text-transform: uppercase;
@@ -104,4 +104,73 @@ textarea:focus, input:focus {
 
 input, select, textarea{
     color: grey;
+}
+
+
+
+.show-menu-btn, .hide-menu-btn{
+	transition: 0.4s;
+	font-size: 30px;
+	cursor: pointer;
+	display: none;
+}
+
+.show-menu-btn{
+	float: right;
+}
+
+#chk{
+	position: absolute;
+	visibility: hidden;
+	z-index: -1111;
+}
+
+
+.added{
+	display: none
+}
+
+
+@media screen and (max-width:992px){
+	.show-menu-btn, .hide-menu-btn{
+		display: block;
+	}
+
+	.menu{
+		position: fixed;
+		width: 50%;
+		height: 100vh;
+		background: rgba(0,0,0,0.95);
+		right: 0;
+		left: 50%;
+		top: 0;
+		text-align: left;
+		padding: 80px 0;
+		line-height: normal;
+		transition: 0.7s ease;
+	}
+
+	.menu li{
+		display: block;
+		padding: 20px;
+	}
+
+ 	.menu li:hover{
+ 		background: #701c00;
+ 		width: 100%;
+ 	}
+
+  .hide-menu-btn{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+
+	.headerbtn{
+		display: none;
+	}
+
+	#chk:not(:checked)~.menu{
+		left: 150%;
+	}
 }

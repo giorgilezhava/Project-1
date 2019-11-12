@@ -8,7 +8,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
+		<script src="https://use.fontawesome.com/ef7e846aad.js"></script>
 		<script>
 			$(document).ready(function(){
 				$("#done").click(function(){
@@ -31,15 +31,23 @@
 </head>
 <body>
 	<header>
-			<h1>It world</h1>
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="info.html">info</a></li>
-				<li><a href="contact.html">contact</a></li></a></li>
-				<li class="reg"><a href="login.html"><button>login</button></a></li>
-			</ul>
-		</nav>
+        <!--es shecvale logoti photoshopshi an ilustratorshi gaakete axali logo-->
+        <h1>IT World</h1>
+    <input type="checkbox" id="chk">
+    <label for="chk" class="show-menu-btn">
+      <i class="fa fa-bars" ></i>
+    </label>
+
+    <ul class="menu">
+        <li class="link"><a href="index.html">Home</a></li>
+        <li class="link"><a href="info.html">info</a></li>
+        <li class="link"><a href="contact.html">contact</a></li>
+        <li class="added"><a href="register.html">register</a></li>
+        <li class="reg"><a href="register.html"><button class="headerbtn">register</button></a></li>
+      <label for="chk" class="hide-menu-btn">
+        <i class="fa fa-times"></i>
+      </label>
+    </ul>
 	</header>
 	<form>
 		<div class="input-group">			

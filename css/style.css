@@ -2,7 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: 'Roboto', sans-serif;
-	background-image: url(/index.png);
+	background-image: linear-gradient(to right , #358af2, #2978d9);
     background-repeat: no-repeat;
     background-size: cover;
     text-transform: uppercase;
@@ -71,7 +71,7 @@ a{
 
 @media screen and (max-width:992px){
 	.show-menu-btn, .hide-menu-btn{
-		display: block;
+		display: block !important;
 	}
 
 	.menu{
@@ -111,9 +111,20 @@ a{
 	#chk:not(:checked)~.menu{
 		left: 150%;
 	}
+
+	section{
+	background: rgba(0,0,0,0.8);
+	color: #358af2;
+	padding: 10px 10px !important;
+	margin: 20px 10px;
+	display: grid;
+	grid-template-columns:auto auto auto; 
+	grid-gap: 10px !important;
+	/*align-content: space-around;
+	justify-content: space-between;
+	teqstis gamchirvalobistvis opacity: 0.5;*/
 }
-
-
+}
 
 button{
 	padding:9px 25px;
@@ -139,7 +150,12 @@ button:hover{
 	#middle_logo{
 	text-align: center;
 	font-size: 60px;
-	color: black;
+	color: rgba(0,0,0,0.9);
+}
+
+p{
+	text-align: center;
+	font-size: 15px !important;
 }
 }
 
@@ -147,7 +163,12 @@ button:hover{
 	#middle_logo{
 	text-align: center;
 	font-size: 55px;
-	color: black;
+	color: rgba(0,0,0,0.9);
+}
+
+p{
+	text-align: center;
+	font-size: 10px !important;
 }
 }
 
@@ -155,11 +176,11 @@ button:hover{
 section{
 	background: rgba(0,0,0,0.8);
 	color: #358af2;
-	padding: 10px 10px;
+	padding: 20px 20px;
 	margin: 20px 10px;
 	display: grid;
 	grid-template-columns:auto auto auto; 
-	grid-gap: 10px;
+	grid-gap: 20px;
 	/*align-content: space-around;
 	justify-content: space-between;
 	teqstis gamchirvalobistvis opacity: 0.5;*/
@@ -172,7 +193,7 @@ p{
 .text1{
 	background-color: #7db0f0;
   	box-shadow: 5px 10px black;
-  	width: 1000px;
+  	width: 90%;
   	margin: 0 auto;
 }
 
