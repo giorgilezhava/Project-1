@@ -2,9 +2,9 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: 'Roboto', sans-serif;
-	background-image: linear-gradient(to right , #358af2, #2978d9);
+	background-image: linear-gradient(to right , #eb4034, #2978d9);
     background-repeat: no-repeat;
-    background-size: 1400px 2350px;
+    background-size: cover;
     text-transform: uppercase;
 }
 
@@ -13,11 +13,12 @@ header{
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
+	color:#2978d9; 
 	padding: 10px 5%;
 }
 
 h1{
-	color: #358af2;
+	color: #eb4034;
 	font-weight: 1000;
 	margin-right: auto;
 }
@@ -92,7 +93,7 @@ button:hover{
 footer{
 	/* rgba(1,1,1,0.8) es imistvis ro background semi-transparent gaxdes */
 	background: rgba(0,0,0,1);
-	color: #358af2;	
+	color: #eb4034;	
 	padding: 10px 30px 40px 30px;
     margin-top: 30%;
     text-transform: none;
@@ -156,7 +157,7 @@ input, select, textarea{
 	}
 
  	.menu li:hover{
- 		background: #701c00;
+ 		background: #2978d9;
  		width: 100%;
  	}
 
