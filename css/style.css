@@ -20,7 +20,7 @@ header{
 }
 
 h1{
-	color: #eb4034;
+	color:#eb4034;
 	font-weight: 1000;
 	margin-right: auto;
 }
@@ -191,10 +191,11 @@ p{
 }
 
 .text1{
-	background-image: linear-gradient(to right , #e82517, #166fdb);
-  	box-shadow: 5px 10px black;
+	background-image: linear-gradient(to right , #ff9578, #70a0fa);
+  	box-shadow: 0 0 20px black;
   	width: 90%;
   	margin: 0 auto;
+  	padding: 0.5% 2%;
 }
 
 img{
@@ -203,12 +204,12 @@ img{
 	width:100%;
 	/*mere gaaswore screen readeristvis text-: -99999999px;*/
 }
-
 footer{
 	/* rgba(1,1,1,0.8) es imistvis ro background semi-transparent gaxdes */
 	background: rgba(0,0,0,1);
 	color: #eb4034;	
 	padding: 10px 30px 40px 30px;
-    margin-top: 100%;
+    margin-bottom: 0;
+    margin-top: 10%;
     text-transform: none;
 }

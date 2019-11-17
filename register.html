@@ -10,23 +10,13 @@
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 		<script src="https://use.fontawesome.com/ef7e846aad.js"></script>
 		<script>
-			$(document).ready(function(){
-				$("#done").click(function(){
-					var username = $("#username").val();
-					var email = $("#email").val();
-					var password = $("#password").val();
-					var confirm = $("#confirm").val();
-					var fail = "";
-					if (username.length <6) fail = "username needs to be more than 6 letters";
-					else if (email.split ('@').length - 1 ==0 || email.split ('.').length - 1 ==0)
-						fail = "email must contain @ and . symbols";
-					else if (password.length <8) fail = "password must be more than 8 symbols";
-					if (fail !="")
-						$('#messageShow').html(fail + "<div class=='clear'><br></div>");
-						$('#messageShow').show();
-						return false;
-				})
-			})
+			function clickme(){
+				var email = document.forms["email"].value;
+				if (email == null) {
+					alert("please fill the form")
+					return true;
+				}
+			}
 		</script>
 </head>
 <body>
@@ -54,11 +44,6 @@
 			<br>
 			<input type="text" placeholder="username" id="username" name="username" >
 		</div>
-
-
-			<div id="messageShow"></div>
-
-
 		<div class="input-group">			
 			<br>
 			<input type="email" placeholder="email" id="email" name="email" >
@@ -72,8 +57,9 @@
 			<input type="password" placeholder="confirm password" id="confirm" name="password_2">
 		</div>
 		<br>
+			<div id="messageShow"></div>
 		<div class="button">
-			<button type="submit" class="btn" name="reg_user">Register</button>
+			<button type="submit" onclick="clickme()" class="btn" name="reg_user">Register</button>
 		</div>
 		<p>
 			Already a member? <a href="login.html">Sign in</a>
