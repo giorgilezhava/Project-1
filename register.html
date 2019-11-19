@@ -79,6 +79,17 @@
 		<p>
 			Already a member? <a href="login.html">Sign in</a>
 		</p>
+		<br>
+		<div class="regdate">
+			<p id="date"></p>
+				<script>n =  new Date();
+					y = n.getFullYear();
+					m = n.getMonth() + 1;
+					d = n.getDate();
+					document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
+				</script>
+        </div>
+
 	</form>
 		<footer>Giorgi Lezhava-sakurso®</footer>
 </body>
