@@ -10,6 +10,7 @@ body{
 
 header{
 	background: rgba(0,0,0,1);
+	box-shadow: 0 0 60px black;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
@@ -42,7 +43,8 @@ font-size: 1.15em;
 
 form {
 	width: 35%;
-	margin:22px auto;
+	box-shadow: 0 0 60px black;
+	margin:10% auto;
 	padding: 70px;
 	background: rgba(0,0,0,0.9);
 	color:white;
@@ -93,6 +95,7 @@ button:hover{
 footer{
 	/* rgba(1,1,1,0.8) es imistvis ro background semi-transparent gaxdes */
 	background: rgba(0,0,0,1);
+	box-shadow: 0 0 60px black;
 	color: #eb4034;	
 	padding: 10px 30px 40px 30px;
     margin-top: 30%;

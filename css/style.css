@@ -11,6 +11,7 @@ body{
 
 header{
 	background: rgba(0,0,0,1);
+	box-shadow: 0 0 60px black;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
@@ -20,7 +21,7 @@ header{
 }
 
 h1{
-	color:#eb4034;
+	color: #eb4034;
 	font-weight: 1000;
 	margin-right: auto;
 }
@@ -174,10 +175,11 @@ p{
 
 
 section{
-	background: rgba(0,0,0,0.8);
+	background: rgba(0,0,0,1);
 	color: #358af2;
+	box-shadow: 0 0 60px black;
 	padding: 20px 20px;
-	margin: 20px 10px;
+	margin: 20px 0;
 	display: grid;
 	grid-template-columns:auto auto auto; 
 	grid-gap: 20px;
@@ -192,9 +194,9 @@ p{
 
 .text1{
 	background-image: linear-gradient(to right , #ff9578, #70a0fa);
-  	box-shadow: 0 0 20px black;
+  	box-shadow: 0 0 60px black;
   	width: 90%;
-  	margin: 0 auto;
+  	margin: 5% auto;
   	padding: 0.5% 2%;
 }
 
@@ -208,8 +210,9 @@ footer{
 	/* rgba(1,1,1,0.8) es imistvis ro background semi-transparent gaxdes */
 	background: rgba(0,0,0,1);
 	color: #eb4034;	
+	box-shadow: 0 0 60px black;
 	padding: 10px 30px 40px 30px;
-    margin-bottom: 0;
-    margin-top: 10%;
+    margin-bottom: none;
+    margin-top:20%;
     text-transform: none;
 }

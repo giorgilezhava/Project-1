@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<!--css file-s gamodzaxeba-->
-  <link rel="stylesheet" href="css/accounts.css">
-    <link rel="stylesheet" href="css/links.css">
 <!--utf-8 enebtan normalurad samushaod-->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 		<script src="https://use.fontawesome.com/ef7e846aad.js"></script>
+		<!--css file-s gamodzaxeba-->
+  <link rel="stylesheet" href="css/accounts.css">
+    <link rel="stylesheet" href="css/links.css">
 		<script>
 			function clickme(){
 				var email = document.forms["email"].value;
@@ -41,23 +41,38 @@
 	</header>
 	<form>
 		<div class="input-group">			
-			<br>
 			<input type="text" placeholder="username" id="username" name="username" >
 		</div>
+		<br>
+
 		<div class="input-group">			
-			<br>
 			<input type="email" placeholder="email" id="email" name="email" >
 		</div>
+		<br>
+
 		<div class="input-group">
-			<br>
 			<input type="password" placeholder="password" id="password" name="password_1">
 		</div>
+		<br>
+
 		<div class="input-group">			
-			<br>
 			<input type="password" placeholder="confirm password" id="confirm" name="password_2">
 		</div>
 		<br>
+
+		<div class="input-group">			
+			<input type="country" placeholder="country" id="country" name="country" >
+		</div>
+			<br>
+
+		<div class="input-group">			
+			<input type="city" placeholder="city" id="city" name="city" >
+		</div>
+			<br>
+
+		<br>
 			<div id="messageShow"></div>
+
 		<div class="button">
 			<button type="submit" onclick="clickme()" class="btn" name="reg_user">Register</button>
 		</div>
