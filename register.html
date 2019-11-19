@@ -9,17 +9,8 @@
 		<!--css file-s gamodzaxeba-->
   <link rel="stylesheet" href="css/accounts.css">
     <link rel="stylesheet" href="css/links.css">
-		<script>
-			function clickme(){
-				var email = document.forms["email"].value;
-				if (email == null) {
-					alert("please fill the form")
-					return true;
-				}
-			}
-		</script>
 </head>
-<body>
+<body onload='document.form.email.focus()'>
 	<header>
         <!--es shecvale logoti photoshopshi an ilustratorshi gaakete axali logo-->
         <h1>IT World</h1>
@@ -39,9 +30,9 @@
       </label>
     </ul>
 	</header>
-	<form>
+	<form  name="form" action="#">
 		<div class="input-group">			
-			<input type="text" placeholder="username" id="username" name="username" >
+			<input type="username" placeholder="username" id="username" name="username" >
 		</div>
 		<br>
 
@@ -74,7 +65,7 @@
 			<div id="messageShow"></div>
 
 		<div class="button">
-			<button type="submit" onclick="clickme()" class="btn" name="reg_user">Register</button>
+			<button type="submit" onclick="ValidateEmail(document.form.email)"/ class="btn" name="submit">Register</button>
 		</div>
 		<p>
 			Already a member? <a href="login.html">Sign in</a>
@@ -89,7 +80,7 @@
 					document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
 				</script>
         </div>
-
+	<script src="register.js"></script>
 	</form>
 		<footer>Giorgi Lezhava-sakurso®</footer>
 </body>

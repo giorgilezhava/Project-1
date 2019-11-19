@@ -116,29 +116,15 @@ a{
 	section{
 	background: rgba(0,0,0,0.8);
 	color: #358af2;
-	padding: 10px 10px !important;
-	margin: 20px 10px;
+	padding: 20px 20px !important;
+	margin: 20px 5px !important;
 	display: grid;
-	grid-template-columns:auto auto auto; 
-	grid-gap: 10px !important;
+	grid-template-columns:auto !important; 
+	grid-gap: 20px !important;
 	/*align-content: space-around;
 	justify-content: space-between;
 	teqstis gamchirvalobistvis opacity: 0.5;*/
 }
-}
-
-button{
-	padding:9px 25px;
-	background-color: black;
-	margin-left: 10px;
-	border-radius: 50px;
-	outline: none;
-	border: 2px solid #358af2;
-	color: white;
-}
-
-button:hover{
-	background-color: #358af2;
 }
 
 #middle_logo{
@@ -174,11 +160,26 @@ p{
 }
 
 
+
+button{
+	padding:9px 25px;
+	background-color: black;
+	margin-left: 10px;
+	border-radius: 50px;
+	outline: none;
+	border: 2px solid #358af2;
+	color: white;
+}
+
+button:hover{
+	background-color: #358af2;
+}
+
 section{
 	background: rgba(0,0,0,1);
 	color: #358af2;
 	box-shadow: 0 0 60px black;
-	padding: 20px 20px;
+	padding: 80px 20px;
 	margin: 20px 0;
 	display: grid;
 	grid-template-columns:auto auto auto; 
