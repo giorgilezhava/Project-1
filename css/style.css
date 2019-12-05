@@ -131,7 +131,6 @@ a{
 	text-align: center;
 	font-size: 64px;
 	color: rgba(0,0,0,0.9);
-	animation: fade 2s ease forwards;
 }
 
 @media screen and (max-width:800px){
@@ -139,7 +138,6 @@ a{
 	text-align: center;
 	font-size: 60px;
 	color: rgba(0,0,0,0.9);
-	animation: fade 2s ease forwards;
 }
 
 p{
@@ -153,7 +151,6 @@ p{
 	text-align: center;
 	font-size: 45px;
 	color: rgba(0,0,0,0.9);
-	animation: fade 2s ease forwards;
 }
 
 p{
