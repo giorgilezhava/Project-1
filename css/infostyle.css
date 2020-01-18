@@ -11,7 +11,7 @@ body{
 
 header{
 	background: rgba(0,0,0,1);
-	box-shadow: 0 0 60px black;
+	box-shadow: 0 0 60px #ff9578;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
@@ -183,7 +183,7 @@ button:hover{
 section{
 	background: rgba(0,0,0,1);
 	color: #358af2;
-	box-shadow: 0 0 60px black;
+	box-shadow: 0 0 60px #ff9578;
 	padding: 80px 20px;
 	margin: 20px 0;
 	display: grid;
@@ -201,7 +201,7 @@ p{
 
 .text1{
 	background-color: black;
-  	box-shadow: 0 0 60px black;
+  	box-shadow: 0 0 60px #ff9578;
   	width: 90%;
   	margin: 5% auto;
   	padding: 0.5% 2%;
@@ -217,7 +217,7 @@ footer{
 	/* rgba(1,1,1,0.8) es imistvis ro background semi-transparent gaxdes */
 	background: rgba(0,0,0,1);
 	color: #eb4034;	
-	box-shadow: 0 0 60px black;
+	box-shadow: 0 0 60px #ff9578;
 	padding: 10px 30px 40px 30px;
     margin-bottom: none;
     margin-top:20%;
