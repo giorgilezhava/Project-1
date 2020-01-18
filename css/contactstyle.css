@@ -43,7 +43,7 @@ font-size: 1.15em;
 
 
 form {
-	width: 35%;
+	width: 50%;
 	box-shadow: 0 0 60px black;
 	margin:10% auto;
 	padding: 70px;
@@ -178,4 +178,22 @@ input, select, textarea{
 	#chk:not(:checked)~.menu{
 		left: 150%;
 	}
+}
+
+
+
+
+.input-text input {
+	height: 30px;
+	width: 93%;
+	padding: 20% 10px;
+	font-size: 16px;
+	border-radius: 20px;
+	border: 1px solid grey;
+	background: rgba(0,0,0,0.6);
+	outline: none;
+}
+
+.input-text input:focus{
+	border: 1px solid #358af2;
 }

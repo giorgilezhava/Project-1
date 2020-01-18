@@ -1,32 +1,69 @@
-<!--doctype ubralo zrdiloba (araa aucilebeli):D-->
 <!DOCTYPE html>
 <html>
-<!--css file-s gamodzaxeba-->
-  <link rel="stylesheet" href="css/style.css">
-   <link rel="stylesheet" href="css/links.css">
+<head>
 <!--utf-8 enebtan normalurad samushaod-->
-		<meta charset="utf-8">
-<body>
-	<header>
-		<h1>Home</h1>
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="info.html">info</a></li>
-				<li><a href="contact.html">contact</a></li>
-				<li><a href="login.html">Sign in</a></li>
-				<li><a href="register.html">register</a></li>
-			</ul>
-		</nav>
-	</header>
-		<section>
-			<div class="img1"></div>
-			<div class="img2"></div>
-			<div class="img3"></div>
-			<div class="img4"></div>
-			<div class="img2"></div>
-			<div class="img1"></div>
-		</section>
-	<footer>Giorgi Lezhava-sakurso®</footer>
+        <meta charset="utf-8">
+        <title>IT-World</title>
+        <link href="https://fonts.googleapis.com/css?family=Baskervville&display=swap" rel="stylesheet">
+        <meta name="description" content="it academy">
+        <meta name="keywords" content="html, css, academy, learning, lessons, programming, web development">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://use.fontawesome.com/ef7e846aad.js"></script>
+        <!--css file-s gamodzaxeba-->
+    <link rel="stylesheet" href="css/contactstyle.css">
+    <link rel="stylesheet" href="css/links.css">
+
+    <script>
+        function Validate(inputText)
+            {
+            var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+            if(inputText.value.match(mailformat))
+            {
+            document.form.email.password.focus();
+            return true;
+            }
+            else
+            {
+            alert("You have entered an invalid email address!");
+            document.form.email.password.focus();
+            return false;
+            }
+            }
+    </script>
+
+</head>
+<body onload='document.form.email.focus()'>
+    <header>
+    <img id="logo" src="images/logo 2.png">
+    <input type="checkbox" id="chk">
+    <label for="chk" class="show-menu-btn">
+      <i class="fa fa-bars" ></i>
+    </label>
+
+    <ul class="menu">
+        <li class="link"><a href="index.html">Home</a></li>
+        <li class="link"><a href="info.html">info</a></li>
+        <li class="link"><a href="contact.html">contact</a></li>
+        <li class="added"><a href="register.html">register</a></li>
+        <li class="reg"><a href="register.html"><button class="headerbtn">register</button></a></li>
+      <label for="chk" class="hide-menu-btn">
+        <i class="fa fa-times"></i>
+      </label>
+    </ul>
+    </header>
+    <form  name="form" action="#">
+        <div class="input-group">           
+            <input type="email" placeholder="Email" id="email" name="email" >
+        </div>
+        <br>
+        <div class="input-text">           
+            <input type="textarea" id="textarea" name="textarea" >
+        </div>
+        <br>
+        <div class="button">
+            <button type="submit" onclick="Validate(document.form.email)"/ class="btn" name="submit">Sumbit</button>
+        </div>
+    </form>
+        <footer>Giorgi Lezhava-sakurso®</footer>
 </body>
 </html>
