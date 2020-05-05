@@ -1,8 +1,8 @@
 /* unvisited link */
-a:link {color: #eb4034;}
+a:link {color: black;}
 
 /* visited link */
-a:visited {color: #eb4034;}
+a:visited {color: black;}
 
 /* mouse over link */
 a:hover {color: #79aff2;}

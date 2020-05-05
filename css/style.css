@@ -2,16 +2,18 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: 'Baskervville', serif;
-	background-image: linear-gradient(to right , #eb4034, #2978d9);
+	background-color: #af89c7
+;
     background-repeat: no-repeat;
     background-size: cover;
-    text-transform: uppercase;
 	 /*konkretuli font-is gamosadzaxeblad font-family: font-name;*/
 }
 
 header{
-	background: rgba(0,0,0,1);
-	box-shadow: 0 0 60px #ff9578;
+	/*header color + thickness*/
+	background: rgba(255,255,255,1);
+	/*shadow color and range*/
+	box-shadow: 0 0 100px #5a068f;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
@@ -79,7 +81,7 @@ a{
 		position: fixed;
 		width: 50%;
 		height: 100vh;
-		background: rgba(0,0,0,0.95);
+		background: rgba(255,255,255,0.95);
 		right: 0;
 		left: 50%;
 		top: 0;
@@ -114,7 +116,7 @@ a{
 	}
 
 	section{
-	background: rgba(0,0,0,0.8);
+	background: rgba(255,255,255,0.8);
 	color: #358af2;
 	padding: 20px 20px !important;
 	margin: 20px 5px !important;
@@ -160,26 +162,24 @@ p{
 }
 
 
-
-
 button{
 	padding:9px 25px;
-	background-color: black;
+	background-color: white;
 	margin-left: 10px;
 	border-radius: 50px;
 	outline: none;
-	border: 2px solid #358af2;
-	color: white;
+	border: 2px solid #5a068f;
+	color: black;
 }
 
 button:hover{
-	background-color: #358af2;
+	background-color: #af89c7;
 }
 
 section{
-	background: rgba(0,0,0,1);
+	background: rgba(255,255,255,1);
 	color: #358af2;
-	box-shadow: 0 0 60px #ff9578;
+	box-shadow: 0 0 100px #5a068f;
 	padding: 80px 20px;
 	margin: 20px 0;
 	display: grid;
@@ -195,11 +195,40 @@ p{
 }
 
 .text1{
-	background-image: linear-gradient(to right , #ff9578, #70a0fa);
-  	box-shadow: 0 0 60px black;
+	background-color: #bfa7cf
+;
+  	box-shadow: 0 0 60px #5a068f;
   	width: 90%;
   	margin: 5% auto;
   	padding: 0.5% 2%;
+}
+
+#info a img{
+	height: 30%;
+	float: left;
+}
+
+.paragr{
+color: black;
+display:flex;
+float: right;
+}
+
+
+/*zeda conteineris kodi daayene amazec
+da 2-2 surati chaalage row-ebshi
+texti 2-surats shoris gawere ro dalagdes sworad*/
+
+
+.sec1{
+
+	background: rgba(255,255,255,1);
+	color: #358af2;
+	box-shadow: 0 0 100px #5a068f;
+	padding: 80px 20px;
+	margin: 20px 0; 
+	display: grid;
+	grid-gap: 10px;
 }
 
 img{
@@ -210,9 +239,9 @@ img{
 }
 footer{
 	/* rgba(1,1,1,0.8) es imistvis ro background semi-transparent gaxdes */
-	background: rgba(0,0,0,1);
-	color: #eb4034;	
-	box-shadow: 0 0 60px #ff9578;
+	background: rgba(255,255,255,1);
+	color: black;	
+	box-shadow: 0 0 100px #5a068f;
 	padding: 10px 30px 40px 30px;
     margin-bottom: none;
     margin-top:20%;
