@@ -2,8 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: 'Baskervville', serif;
-	background-color: #af89c7
-;
+	background-color: #af89c7;
     background-repeat: no-repeat;
     background-size: cover;
 	 /*konkretuli font-is gamosadzaxeblad font-family: font-name;*/
@@ -204,7 +203,6 @@ p{
 }
 
 #info a img{
-	height: 30%;
 	float: left;
 }
 
@@ -220,15 +218,14 @@ da 2-2 surati chaalage row-ebshi
 texti 2-surats shoris gawere ro dalagdes sworad*/
 
 
-.sec1{
+.info{
 
 	background: rgba(255,255,255,1);
 	color: #358af2;
 	box-shadow: 0 0 100px #5a068f;
 	padding: 80px 20px;
-	margin: 20px 0; 
 	display: grid;
-	grid-gap: 10px;
+	grid-gap: 20px;
 }
 
 img{

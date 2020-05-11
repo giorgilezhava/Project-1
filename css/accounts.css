@@ -2,15 +2,18 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: 'Baskervville', serif;
-	background-image: linear-gradient(to right , #eb4034, #2978d9);
+	background-color: #af89c7;
     background-repeat: no-repeat;
     background-size: cover;
-    text-transform: uppercase;
+	 /*konkretuli font-is gamosadzaxeblad font-family: font-name;*/
 }
 
+
 header{
-	background: rgba(0,0,0,1);
-	box-shadow: 0 0 60px #ff9578;
+	/*header color + thickness*/
+	background: rgba(255,255,255,1);
+	/*shadow color and range*/
+	box-shadow: 0 0 100px #5a068f;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
@@ -47,8 +50,8 @@ form {
 	box-shadow: 0 0 60px black;
 	margin:10% auto;
 	padding: 70px;
-	background: rgba(0,0,0,0.9);
-	color:white;
+	background: rgba(255,255,255,0.5);
+	color:#5a068f;
 	text-transform: none;
 	outline: none;
 	border: none;
@@ -62,7 +65,7 @@ form {
 	font-size: 16px;
 	border-radius: 20px;
 	border: 1px solid grey;
-	background: rgba(0,0,0,0.6);
+	background: rgba(255,255,255,0.6);
 	outline: none;
 }
 
@@ -72,34 +75,35 @@ form {
 
 button{
 	padding:9px 25px;
-	background-color: black;
+	background-color: white;
 	border-radius: 50px;
 	outline: none;
-	border: 2px solid #358af2;
-	color: white;
+	border: 2px solid #5a068f;
+	color: black;
 }
 
 a button{
 	padding:9px 25px;
-	background-color: black;
+	background-color: white;
 	margin-left: 10px;
 	border-radius: 50px;
 	outline: none;
-	border: 2px solid #358af2;
-	color: white;
+	border: 2px solid #5a068f;
+	color: black;
 }
 
 button:hover{
-	background-color: #358af2;
+	background-color: #af89c7;
 }
 
 footer{
 	/* rgba(1,1,1,0.8) es imistvis ro background semi-transparent gaxdes */
-	background: rgba(0,0,0,1);
-	box-shadow: 0 0 60px #ff9578;
-	color: #eb4034;	
+	background: rgba(255,255,255,1);
+	color: black;	
+	box-shadow: 0 0 100px #5a068f;
 	padding: 10px 30px 40px 30px;
-    margin-top: 30%;
+    margin-bottom: none;
+    margin-top:20%;
     text-transform: none;
 }
 
@@ -138,14 +142,14 @@ input, select, textarea{
 
 @media screen and (max-width:992px){
 	.show-menu-btn, .hide-menu-btn{
-		display: block;
+		display: block !important;
 	}
 
 	.menu{
 		position: fixed;
 		width: 50%;
 		height: 100vh;
-		background: rgba(0,0,0,0.95);
+		background: rgba(255,255,255,0.95);
 		right: 0;
 		left: 50%;
 		top: 0;
@@ -161,7 +165,7 @@ input, select, textarea{
 	}
 
  	.menu li:hover{
- 		background: #701c00;
+ 		background: black;
  		width: 100%;
  	}
 
@@ -171,11 +175,56 @@ input, select, textarea{
     right: 40px;
   }
 
-	.headerbtn{
+	button{
 		display: none;
 	}
 
 	#chk:not(:checked)~.menu{
 		left: 150%;
 	}
+
+	section{
+	background: rgba(255,255,255,0.8);
+	color: #358af2;
+	padding: 20px 20px !important;
+	margin: 20px 5px !important;
+	display: grid;
+	grid-template-columns:auto !important; 
+	grid-gap: 20px !important;
+	/*align-content: space-around;
+	justify-content: space-between;
+	teqstis gamchirvalobistvis opacity: 0.5;*/
+}
+}
+
+#middle_logo{
+	text-align: center;
+	font-size: 64px;
+	color: rgba(0,0,0,0.9);
+}
+
+@media screen and (max-width:800px){
+	#middle_logo{
+	text-align: center;
+	font-size: 60px;
+	color: rgba(0,0,0,0.9);
+}
+
+p{
+	text-align: center;
+	font-size: 15px !important;
+}
+}
+
+@media screen and (max-width:600px){
+	#middle_logo{
+	text-align: center;
+	font-size: 45px;
+	color: rgba(0,0,0,0.9);
+}
+
+p{
+	text-align: center;
+	font-size: 10px !important;
+}
 }
