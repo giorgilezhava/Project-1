@@ -89,7 +89,6 @@ a{
 		padding: 80px 0;
 		line-height: normal;
 		transition: 0.7s ease;
-		z-index: 1!important;
 	}
 
 	.menu li{
@@ -98,7 +97,7 @@ a{
 	}
 
  	.menu li:hover{
- 		background: black;
+ 		background: #af89c7;
  		width: 100%;
  	}
 
@@ -258,7 +257,7 @@ texti 2-surats shoris gawere ro dalagdes sworad*/
   background: rgba(255,255,255,0.75);
   padding: 30px;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  box-shadow: 0 0 10px #5a068f;
 }
 
 .input-fields{

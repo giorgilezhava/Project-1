@@ -5,7 +5,7 @@ a:link {color: black;}
 a:visited {color: black;}
 
 /* mouse over link */
-a:hover {color: #79aff2;}
+a:hover {color: black;}
 
 /* selected link */
 a:active {color: white;}
