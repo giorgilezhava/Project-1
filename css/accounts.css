@@ -117,6 +117,7 @@ input, select, textarea{
 .show-menu-btn, .hide-menu-btn{
 	transition: 0.4s;
 	font-size: 30px;
+	color: #8EE4AF;
 	cursor: pointer;
 	display: none;
 }
@@ -146,7 +147,7 @@ input, select, textarea{
 		position: fixed;
 		width: 50%;
 		height: 100vh;
-		background: rgba(255,255,255,0.95);
+		background: rgba(23,23,23,0.95);
 		right: 0;
 		left: 50%;
 		top: 0;
@@ -162,7 +163,7 @@ input, select, textarea{
 	}
 
  	.menu li:hover{
- 		background: #af89c7;
+ 		background: white;
  		width: 100%;
  	}
 
