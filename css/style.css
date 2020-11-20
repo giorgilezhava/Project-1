@@ -2,7 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: 'Baskervville', serif;
-	background-color: #af89c7;
+	background-color: #8EE4AF;
     background-repeat: no-repeat;
     background-size: cover;
 	 /*konkretuli font-is gamosadzaxeblad font-family: font-name;*/
@@ -10,9 +10,8 @@ body{
 
 header{
 	/*header color + thickness*/
-	background: rgba(255,255,255,1);
+	background: #171717;
 	/*shadow color and range*/
-	box-shadow: 0 0 100px #5a068f;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
@@ -20,6 +19,11 @@ header{
 	padding: 10px 5%;
 	height: 88px;
 }
+
+h2{
+	color: #171717;
+}
+
 
 #logo{
 	margin-right: auto;
@@ -115,7 +119,7 @@ a{
 	}
 
 	section{
-	background: rgba(255,255,255,0.8);
+	background:#171717;
 	color: #358af2;
 	padding: 20px 20px !important;
 	margin: 20px 5px !important;
@@ -167,18 +171,17 @@ button{
 	margin-left: 10px;
 	border-radius: 50px;
 	outline: none;
-	border: 2px solid #5a068f;
+	border: 2px solid #8EE4AF;
 	color: black;
 }
 
 button:hover{
-	background-color: #af89c7;
+	background-color: #8EE4AF;
 }
 
 section{
-	background: rgba(255,255,255,1);
+	background: #171717;
 	color: #358af2;
-	box-shadow: 0 0 100px #5a068f;
 	padding: 80px 20px;
 	margin: 20px 0;
 	display: grid;
@@ -194,9 +197,7 @@ p{
 }
 
 .text1{
-	background-color: #bfa7cf
-;
-  	box-shadow: 0 0 60px #5a068f;
+	background-color: white;
   	width: 90%;
   	margin: 5% auto;
   	padding: 0.5% 2%;
@@ -207,7 +208,7 @@ p{
 }
 
 .paragr{
-color: black;
+color: #8EE4AF;
 display:flex;
 float: right;
 }
@@ -220,9 +221,8 @@ texti 2-surats shoris gawere ro dalagdes sworad*/
 
 .info{
 
-	background: rgba(255,255,255,1);
+	background: #171717;
 	color: #358af2;
-	box-shadow: 0 0 100px #5a068f;
 	padding: 80px 20px;
 	display: grid;
 	grid-gap: 20px;
@@ -236,9 +236,8 @@ img{
 }
 footer{
 	/* rgba(1,1,1,0.8) es imistvis ro background semi-transparent gaxdes */
-	background: rgba(255,255,255,1);
-	color: black;	
-	box-shadow: 0 0 100px #5a068f;
+	background: #171717;
+	color: #8EE4AF;	
 	padding: 10px 30px 40px 30px;
     margin-bottom: none;
     margin-top:20%;

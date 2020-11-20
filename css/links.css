@@ -1,11 +1,11 @@
 /* unvisited link */
-a:link {color: black;}
+a:link {color: #5c9c74;}
 
 /* visited link */
-a:visited {color: black;}
+a:visited {color: #5c9c74;}
 
 /* mouse over link */
-a:hover {color: black;}
+a:hover {color: #5c9c74;}
 
 /* selected link */
 a:active {color: white;}

@@ -2,7 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: 'Baskervville', serif;
-	background-color: #af89c7;
+	background-color: #8EE4AF;
     background-repeat: no-repeat;
     background-size: cover;
 	 /*konkretuli font-is gamosadzaxeblad font-family: font-name;*/
@@ -11,9 +11,8 @@ body{
 
 header{
 	/*header color + thickness*/
-	background: rgba(255,255,255,1);
+	background:#171717;
 	/*shadow color and range*/
-	box-shadow: 0 0 100px #5a068f;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
@@ -47,11 +46,10 @@ font-size: 1.15em;
 
 form {
 	width: 35%;
-	box-shadow: 0 0 60px black;
 	margin:10% auto;
 	padding: 70px;
-	background: rgba(255,255,255,0.5);
-	color:#5a068f;
+	background: white;
+	color:black;
 	text-transform: none;
 	outline: none;
 	border: none;
@@ -78,7 +76,7 @@ button{
 	background-color: white;
 	border-radius: 50px;
 	outline: none;
-	border: 2px solid #5a068f;
+	border: 2px solid #8EE4AF;
 	color: black;
 }
 
@@ -88,19 +86,18 @@ a button{
 	margin-left: 10px;
 	border-radius: 50px;
 	outline: none;
-	border: 2px solid #5a068f;
+	border: 2px solid #8EE4AF;
 	color: black;
 }
 
 button:hover{
-	background-color: #af89c7;
+	background-color: #8EE4AF;
 }
 
 footer{
 	/* rgba(1,1,1,0.8) es imistvis ro background semi-transparent gaxdes */
-	background: rgba(255,255,255,1);
-	color: black;	
-	box-shadow: 0 0 100px #5a068f;
+	background: #171717;
+	color: #8EE4AF;	
 	padding: 10px 30px 40px 30px;
     margin-bottom: none;
     margin-top:20%;
