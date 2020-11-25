@@ -2,7 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: 'Baskervville', serif;
-	background-color: #8EE4AF;
+	background-color: #e3c991;
     background-repeat: no-repeat;
     background-size: cover;
 	 /*konkretuli font-is gamosadzaxeblad font-family: font-name;*/
@@ -56,7 +56,7 @@ a{
 	transition: 0.4s;
 	font-size: 30px;
 	cursor: pointer;
-	color: #8EE4AF;
+	color: #e3c991;
 	display: none;
 }
 
@@ -172,12 +172,12 @@ button{
 	margin-left: 10px;
 	border-radius: 50px;
 	outline: none;
-	border: 2px solid #8EE4AF;
+	border: 2px solid #e3c991;
 	color: black;
 }
 
 button:hover{
-	background-color: #8EE4AF;
+	background-color: #e3c991;
 }
 
 section{
@@ -209,7 +209,7 @@ p{
 }
 
 .paragr{
-color: #8EE4AF;
+color: #ad8b40;
 display:flex;
 float: right;
 }
@@ -238,7 +238,7 @@ img{
 footer{
 	/* rgba(1,1,1,0.8) es imistvis ro background semi-transparent gaxdes */
 	background: #171717;
-	color: #8EE4AF;	
+	color: #e3c991;	
 	padding: 10px 30px 40px 30px;
     margin-bottom: none;
     margin-top:20%;
