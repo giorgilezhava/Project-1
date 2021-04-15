@@ -2,7 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: 'Baskervville', serif;
-	background-color: #e3c991;
+	background-image: url("composited.png");
     background-repeat: no-repeat;
     background-size: cover;
 	 /*konkretuli font-is gamosadzaxeblad font-family: font-name;*/
