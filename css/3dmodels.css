@@ -1,0 +1,250 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Baskervville', serif;
+	background-image: url("composited.png");
+    background-repeat:repeat;
+    background-size: cover;
+	 /*konkretuli font-is gamosadzaxeblad font-family: font-name;*/
+}
+
+
+header{
+	/*header color + thickness*/
+	background: #171717;
+	/*shadow color and range*/
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	color:#2978d9; 
+	padding: 10px 5%;
+	height: 88px;
+	box-shadow: 0px 20px 30px black;
+}
+
+#logo{
+	margin-right: auto;
+	width: 200px;
+	height: 130px;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	/*ul-shi li-ebis standartuli machvenebeli 
+	wertilebis wasashlelad list-style-type:none*/
+
+}
+/*sheni menu-s gilakebi dizaini*/
+li{
+display: inline-block;
+margin-right: 80px;
+/*linkebis textis zoma*/
+font-size: 1.15em;
+}
+
+
+
+form {
+	width: 35%;
+	margin:10% auto;
+	padding: 70px;
+	background: #fffad1;
+	color:black;
+	text-transform: none;
+	outline: none;
+	border: none;
+	border-radius: 20px;
+}
+
+.sketchfab-embed-wrapper{
+	margin-top: 10%;
+	padding: 20px 20px 20px;
+	background-color: #171717;
+	color: #e3c991;
+}
+
+
+div{
+	width: 70%;
+	margin:10% auto;
+	padding: 0px 4px 0px;
+}
+
+iframe{
+	width:100% ;
+	height: 600px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	box-shadow: 10px 20px 25px black;
+}
+
+.input-group input {
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 20px;
+	border: 1px solid grey;
+	background: rgba(255,255,255,0.6);
+	outline: none;
+}
+
+.input-group input:focus{
+	border: 1px solid #358af2;
+}
+
+button{
+	padding:9px 25px;
+	background-color: white;
+	border-radius: 50px;
+	outline: none;
+	border: 2px solid #e3c991;
+	color: black;
+}
+
+a button{
+	padding:9px 25px;
+	background-color: white;
+	margin-left: 10px;
+	border-radius: 50px;
+	outline: none;
+	border: 2px solid #e3c991;
+	color: black;
+}
+
+button:hover{
+	background-color: #e3c991;
+}
+
+footer{
+	/* rgba(1,1,1,0.8) es imistvis ro background semi-transparent gaxdes */
+	background: #171717;
+	color: #e3c991;	
+	padding: 10px 30px 40px 30px;
+    margin-bottom: -20%;
+    text-transform: none;
+}
+
+textarea:focus, input:focus {
+    color: #358af2;
+}
+
+input, select, textarea{
+    color: grey;
+}
+
+
+
+.show-menu-btn, .hide-menu-btn{
+	transition: 0.4s;
+	font-size: 30px;
+	color: #e3c991;
+	cursor: pointer;
+	display: none;
+}
+
+.show-menu-btn{
+	float: right;
+}
+
+#chk{
+	position: absolute;
+	visibility: hidden;
+	z-index: -1111;
+}
+
+
+.added{
+	display: none
+}
+
+
+@media screen and (max-width:992px){
+	.show-menu-btn, .hide-menu-btn{
+		display: block !important;
+	}
+
+	.menu{
+		position: fixed;
+		width: 50%;
+		height: 100vh;
+		background: rgba(23,23,23,0.95);
+		right: 0;
+		left: 50%;
+		top: 0;
+		text-align: left;
+		padding: 80px 0;
+		line-height: normal;
+		transition: 0.7s ease;
+	}
+
+	.menu li{
+		display: block;
+		padding: 20px;
+	}
+
+ 	.menu li:hover{
+ 		background: white;
+ 		width: 100%;
+ 	}
+
+  .hide-menu-btn{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+
+	button{
+		display: none;
+	}
+
+	#chk:not(:checked)~.menu{
+		left: 150%;
+	}
+
+	section{
+	background: rgba(255,255,255,0.8);
+	color: #358af2;
+	padding: 20px 20px !important;
+	margin: 20px 5px !important;
+	display: grid;
+	grid-template-columns:auto !important; 
+	grid-gap: 20px !important;
+	/*align-content: space-around;
+	justify-content: space-between;
+	teqstis gamchirvalobistvis opacity: 0.5;*/
+}
+}
+
+#middle_logo{
+	text-align: center;
+	font-size: 64px;
+	color: rgba(0,0,0,0.9);
+}
+
+@media screen and (max-width:800px){
+	#middle_logo{
+	text-align: center;
+	font-size: 60px;
+	color: rgba(0,0,0,0.9);
+}
+
+p{
+	text-align: center;
+	font-size: 15px !important;
+}
+}
+
+@media screen and (max-width:600px){
+	#middle_logo{
+	text-align: center;
+	font-size: 45px;
+	color: rgba(0,0,0,0.9);
+}
+
+p{
+	text-align: center;
+	font-size: 10px !important;
+}
+}
