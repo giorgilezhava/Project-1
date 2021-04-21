@@ -26,6 +26,31 @@ h2{
 }
 
 
+.sketchfab-embed-wrapper{
+	margin-top: 10%;
+	padding: 20px 20px 20px;
+	background-color: #f7ce3e;
+	color: black;
+	box-shadow: 0px 20px 30px black;
+}
+
+
+div{
+	width: 70%;
+	margin:10% auto;
+	padding: 0px 4px 0px;
+}
+
+iframe{
+	width:100% ;
+	height: 600px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	box-shadow: 10px 20px 25px black;
+	color: black;
+}
+
+
 #logo{
 	margin-right: auto;
 	width: 200px;
@@ -238,7 +263,8 @@ texti 2-surats shoris gawere ro dalagdes sworad*/
 
 	background: #f7ce3e;
 	color: black;
-	padding: 80px 20px;
+	padding: 30px 10px;
+	margin-bottom: 150px;
 	display: grid;
 	grid-gap: 20px;
 }
@@ -249,12 +275,14 @@ img{
 	width:100%;
 	/*mere gaaswore screen readeristvis text-: -99999999px;*/
 }
+
+
 footer{
 	/* rgba(1,1,1,0.8) es imistvis ro background semi-transparent gaxdes */
 	background: #f7ce3e;
 	color: black;	
 	padding: 10px 30px 40px 30px;
-    margin-bottom: none;
-    margin-top:20%;
+    margin-bottom: -20%;
     text-transform: none;
 }
+
