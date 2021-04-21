@@ -10,7 +10,7 @@ body{
 
 header{
 	/*header color + thickness*/
-	background: #171717;
+	background: #f7ce3e;
 	/*shadow color and range*/
 	display: flex;
 	justify-content: flex-end;
@@ -18,11 +18,11 @@ header{
 	color:#2978d9; 
 	padding: 10px 5%;
 	height: 88px;
-	box-shadow: 0px 20px 30px black;
+	box-shadow: 0px 1px 30px black;
 }
 
 h2{
-	color: #171717;
+	color: #f7ce3e;
 }
 
 
@@ -57,7 +57,7 @@ a{
 	transition: 0.4s;
 	font-size: 30px;
 	cursor: pointer;
-	color: #e3c991;
+	color: black;
 	display: none;
 }
 
@@ -86,7 +86,7 @@ a{
 		position: fixed;
 		width: 50%;
 		height: 100vh;
-		background: rgba(23,23,23,0.95);
+		background: rgba(247, 206, 62,0.8);
 		right: 0;
 		left: 50%;
 		top: 0;
@@ -121,7 +121,7 @@ a{
 	}
 
 	section{
-	background:#171717;
+	background:#f7ce3e;
 	color: #358af2;
 	padding: 20px 20px !important;
 	margin: 20px 5px !important;
@@ -182,14 +182,14 @@ button:hover{
 }
 
 section{
-	background: #171717;
+	background: #f7ce3e;
 	color: #358af2;
 	padding: 80px 20px;
 	margin: 20px 0;
 	display: grid;
 	grid-template-columns:auto auto auto; 
 	grid-gap: 20px;
-	box-shadow: 10px 20px 30px black;
+	box-shadow: 0px 20px 30px black;
 	/*align-content: space-around;
 	justify-content: space-between;
 	teqstis gamchirvalobistvis opacity: 0.5;*/
@@ -223,7 +223,7 @@ p{
 }
 
 .paragr{
-color: #ad8b40;
+color: black;
 display:flex;
 float: right;
 }
@@ -236,8 +236,8 @@ texti 2-surats shoris gawere ro dalagdes sworad*/
 
 .info{
 
-	background: #171717;
-	color: #358af2;
+	background: #f7ce3e;
+	color: black;
 	padding: 80px 20px;
 	display: grid;
 	grid-gap: 20px;
@@ -251,8 +251,8 @@ img{
 }
 footer{
 	/* rgba(1,1,1,0.8) es imistvis ro background semi-transparent gaxdes */
-	background: #171717;
-	color: #e3c991;	
+	background: #f7ce3e;
+	color: black;	
 	padding: 10px 30px 40px 30px;
     margin-bottom: none;
     margin-top:20%;

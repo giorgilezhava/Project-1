@@ -11,7 +11,7 @@ body{
 
 header{
 	/*header color + thickness*/
-	background: #171717;
+	background: #f7ce3e;
 	/*shadow color and range*/
 	display: flex;
 	justify-content: flex-end;
@@ -60,8 +60,9 @@ form {
 .sketchfab-embed-wrapper{
 	margin-top: 10%;
 	padding: 20px 20px 20px;
-	background-color: #171717;
-	color: #e3c991;
+	background-color: #f7ce3e;
+	color: black;
+	box-shadow: 0px 20px 30px black;
 }
 
 
@@ -77,6 +78,7 @@ iframe{
 	padding-bottom: 0px;
 	margin-bottom: 0px;
 	box-shadow: 10px 20px 25px black;
+	color: black;
 }
 
 .input-group input {
@@ -119,8 +121,8 @@ button:hover{
 
 footer{
 	/* rgba(1,1,1,0.8) es imistvis ro background semi-transparent gaxdes */
-	background: #171717;
-	color: #e3c991;	
+	background: #f7ce3e;
+	color: black;	
 	padding: 10px 30px 40px 30px;
     margin-bottom: -20%;
     text-transform: none;
@@ -139,7 +141,7 @@ input, select, textarea{
 .show-menu-btn, .hide-menu-btn{
 	transition: 0.4s;
 	font-size: 30px;
-	color: #e3c991;
+	color: black;
 	cursor: pointer;
 	display: none;
 }
@@ -169,7 +171,7 @@ input, select, textarea{
 		position: fixed;
 		width: 50%;
 		height: 100vh;
-		background: rgba(23,23,23,0.95);
+		background: rgba(247, 206, 62,0.8);
 		right: 0;
 		left: 50%;
 		top: 0;
